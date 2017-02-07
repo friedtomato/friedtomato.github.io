@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="/stylesheets/jquery.fancybox.css" rel="stylesheet" /><link href="/stylesheets/jquery.fancybox-buttons.css" rel="stylesheet" /><link href="/stylesheets/jquery.fancybox-thumbs.css" rel="stylesheet" />
+    
+    <script src="/javascripts/jquery-1.10.2.min.js"></script><script src="/javascripts/jquery.fancybox.pack.js"></script><script src="/javascripts/jquery.fancybox-buttons.js"></script><script src="/javascripts/jquery.fancybox-media.js"></script><script src="/javascripts/jquery.fancybox-thumbs.js"></script>
+
+     <script>
+        $(document).ready(function() {
+          $('.fancybox')
+          .attr('rel','gall')
+          .fancybox({openEffect: 'none',
+        	     closeEffect: 'none',
+        	     prevEffect: 'none',
+        	     padding: 0, 
+                     nextEffect: 'none', 
+                     autoPlay: false, 
+                     margin: [20,60,20,60],	
+                     helpers: { title: { type: 'inside' }, 
+                                overlay : { css : { 'background' : 'rgba(0, 0, 0, 0.9)' } } } } )
+        });
+     </script>
+
+
+  </head>
+
+  <body class="links">
+      
+<div class="navigation">
+  <ul>
+        <li><a href="/cv.html">&nbsp;cv</a></li>
+        <li><a href="/contact_info.html">&nbsp;contact_info</a></li>
+  </ul>
+
+  <ul>
+        <li><a href="/public_sousveillance.html">&nbsp;public_sousveillance</a></li>
+        <li><a href="/trajectories.html">&nbsp;trajectories</a></li>
+        <li><a href="/white_box.html">&nbsp;white_box</a></li>
+        <li><a href="/additive_environment.html">&nbsp;additive_environment</a></li>
+        <li><a href="/white_board.html">&nbsp;white_board</a></li>
+        <li><a href="/fairy_grove.html">&nbsp;fairy_grove</a></li>
+        <li><a href="/coffee_cup.html">&nbsp;coffee_cup</a></li>
+  </ul>
+</div>
+
+      
+
+
+
+  </body>
+</html>
